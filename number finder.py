@@ -3,7 +3,7 @@ import random
 F = 0
 
 number = int(input('What number do you want me to find? '))
-if number <= 100 and number > 0:
+if number <= 1000000 and number > 0:
     print('Okay, searching now')
     time.sleep(.4)
     print('Initiating hacks')
@@ -18,7 +18,7 @@ if number <= 100 and number > 0:
 
 
     while F!= number:
-        F = random.randint(0,100)
+        F = random.randint(0,1000000)
     if F == number:
         print(number)
         print('Great, I hacked into the database')
